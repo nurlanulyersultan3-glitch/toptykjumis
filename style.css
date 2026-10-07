@@ -1,3 +1,4 @@
+
 /* Қараңғы тема */
 body.dark-theme {
     background-color: #0f172a;
@@ -12,4 +13,80 @@ body.dark-theme .card {
 
 body.dark-theme .about-section h1 {
     color: #38bdf8;
+=======
+
+/* Команда карточкалары */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Шапка */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #38bdf8;
+}
+
+#theme-toggle {
+    background: #334155;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Команда карточкалары */
+.team-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    width: 220px;
+}
+
+.card .avatar {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
