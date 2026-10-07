@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Шапка */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #38bdf8;
+}
+
+#theme-toggle {
+    background: #334155;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
