@@ -1,4 +1,20 @@
 
+/* Қараңғы тема */
+body.dark-theme {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark-theme .about-section,
+body.dark-theme .card {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark-theme .about-section h1 {
+    color: #38bdf8;
+=======
+
 /* Команда карточкалары */
 * {
     margin: 0;
@@ -62,7 +78,6 @@ body {
     margin-top: 30px;
     flex-wrap: wrap;
 }
-
 .card {
     background: #ffffff;
     padding: 30px;
