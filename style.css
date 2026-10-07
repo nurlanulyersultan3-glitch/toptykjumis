@@ -1,3 +1,5 @@
+
+/* Команда карточкалары */
 * {
     margin: 0;
     padding: 0;
@@ -45,4 +47,31 @@ body {
     padding: 8px 16px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+/* Команда карточкалары */
+.team-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    width: 220px;
+}
+
+.card .avatar {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
